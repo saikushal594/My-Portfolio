@@ -44,7 +44,6 @@ html {
   margin: 0 auto;
   padding: var(--container-padding);
 }
-
 /* HEADER */
 .header {
   position: fixed;
