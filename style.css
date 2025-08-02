@@ -346,7 +346,45 @@ section {
   font-weight: 600;
   color: var(--text-primary);
 }
-
+/* LANGUAGES */
+.languages {
+  background-color: #f9fafb;
+  padding: var(--section-padding);
+}
+.languages-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.language-item {
+  text-align: center;
+  background-color: var(--bg-secondary);
+  border-radius: 15px;
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: var(--transition-smooth);
+}
+.language-item:hover {
+  transform: scale(1.05);
+  background-color: rgba(59, 130, 246, 0.05);
+}
+.language-icon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 0.8rem;
+}
+.language-name {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+.language-level {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
 /* EDUCATION */
 .education {
   background-color: #ffffff;
